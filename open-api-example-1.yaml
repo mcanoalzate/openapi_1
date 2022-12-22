@@ -10,6 +10,15 @@ paths:
       description: |
         Search for products in catalog
         using free query parameter
+      parameters:
+        - name: free-query
+          description: |
+            A product's name, reference, or
+            partial description
+          in: query
+          required: false
+          schema:
+            type: string
       responses: 
         "200":
           description: |

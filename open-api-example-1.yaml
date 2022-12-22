@@ -14,3 +14,12 @@ paths:
         "200":
           description: |
             Products matching free query parameter
+    post:
+      summary: Add product
+      description: |
+        Add product (described in product info
+        parameter) to catalog
+      responses:
+        "200":
+          description: |
+            Product added to catalog

@@ -5,4 +5,12 @@ info:
 paths: 
   /products:
     description: The products catalog
-    
+    get:
+      summary: Search for products
+      description: |
+        Search for products in catalog
+        using free query parameter
+      responses: 
+        "200":
+          description: |
+            Products matching free query parameter
